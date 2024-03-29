@@ -1,19 +1,19 @@
 
-
+import profileImg from '../assets/profileImg.jpg';
 
 
 function Header() {
-  return (
-<header class="mb-auto">
-    <div>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
-      </nav>
-    </div>
-  </header>
-  );
+    return (
+        <header className="mb-4 mt-5">
+            <div>
+                <div>
+                    <img src={profileImg} className="img react" alt="profile image" />
+                </div>
+
+                <h1 className='name'>Hi,  I am George Moraitis</h1>
+            </div>
+        </header>
+    );
 }
 
 export default Header;

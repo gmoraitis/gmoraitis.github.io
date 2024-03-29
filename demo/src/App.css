@@ -14,7 +14,21 @@
 .img.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.nav-link {
+  font-size: 1em;
+  font-weight: 500;
+  color: #f4f4f7;
+  text-decoration: none;
+  transition: color 300ms;
+}
+.nav-link:hover {
+  color: #646cff;
+}
 
+.name:hover {
+  color: #646cff;
+  transition: color 300ms;
+}
 /* .card {
   padding: 2em;
 } */
