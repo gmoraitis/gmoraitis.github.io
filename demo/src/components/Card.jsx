@@ -1,22 +1,17 @@
+// Card.jsx
 import React, { useState } from 'react';
+import EducationTab from './EducationTab';
+import AboutTab from './AboutTab';
 
-
-
-
-function Card({info}) {
-    // State to track active tab and its content
+function Card({ info }) {
     const [activeTab, setActiveTab] = useState(0);
 
-    // Function to handle tab click
     const handleTabClick = (index) => {
         setActiveTab(index);
     };
 
     return (
         <div className='px-5'>
-
-
-
             <div className="card text-center text-bg-dark" style={{ maxWidth: '700px', margin: '0 auto' }}>
                 <div className="card-header">
                     <ul className="nav nav-tabs card-header-tabs justify-content-center">
@@ -35,11 +30,20 @@ function Card({info}) {
                 </div>
                 <div className="card-body">
                     <h5 className="card-title">{info[activeTab].title}</h5>
-                    <p className="card-text px-4">{info[activeTab].content}</p>
+                    {/* Switching tabs */}
+                    
+                    
+                    {info[activeTab].title === 'About' && (
+                        <AboutTab aboutData={info[activeTab].content} />
+                    )}
+                    
+                    {info[activeTab].title === "Education" && (
+                        <EducationTab educationData={info[activeTab].content} />
+                    )}
+
                     <a href="#" className="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
-
         </div>
     );
 }
