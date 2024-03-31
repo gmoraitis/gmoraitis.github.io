@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import EducationTab from './EducationTab';
 import AboutTab from './AboutTab';
+import ContactTab from './ContactTab';
 
 function Card({ info }) {
     const [activeTab, setActiveTab] = useState(0);
@@ -28,17 +29,21 @@ function Card({ info }) {
                         ))}
                     </ul>
                 </div>
-                <div className="card-body">
-                    <h5 className="card-title">{info[activeTab].title}</h5>
+                <div className="card-body mt-4">
+        
                     {/* Switching tabs */}
                     
-                    
+                
                     {info[activeTab].title === 'About' && (
-                        <AboutTab aboutData={info[activeTab].content} />
+                        <AboutTab aboutData={info[activeTab]} />
                     )}
                     
                     {info[activeTab].title === "Education" && (
                         <EducationTab educationData={info[activeTab].content} />
+                    )}
+
+                    {info[activeTab].title === "Contact" && (
+                        <ContactTab />
                     )}
 
                     <a href="#" className="btn btn-primary">Go somewhere</a>

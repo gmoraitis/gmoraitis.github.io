@@ -35,8 +35,7 @@ const data = [
     content: "Blog content goes here..."
   },
   {
-    title: "Contact",
-    content: "Contact content goes here..."
+    title: "Contact"
   }
 ];
 

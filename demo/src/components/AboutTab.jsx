@@ -1,13 +1,9 @@
-// About.jsx
-import React from 'react';
+
 
 function AboutTab({ aboutData }) {
     return (
         <div>
-
-                    <p><strong>About: </strong>{aboutData}</p>
-                    <p><strong>Content: </strong>{aboutData}</p>
-
+            <p>{aboutData.content}</p>
         </div>
     );
 }
