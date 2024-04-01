@@ -97,106 +97,43 @@ const data = [
                 {title: 'Introduction to Data Structures'},
                 {title: 'Introduction to  Programming languages'},
             ],
-              
-
-
-
-
-
           },
 
           {
             inner_title: 'Mathematics for Informatics I',
             inner_content: [
-              {
-                title: 'Linear Algebra',
-              }
+              {title: 'Linear Algebra'},
+              {title: 'Single Variable Calculus'},
+              {title: 'Elements of Probability Theory'},
             ],
-            inner_content: [
-              {
-                title: 'Single Variable Calculus',
-              }
-            ],
-            inner_content: [
-              {
-                title: 'Elements of Probability Theory',
-              }
-            ],
-
           },
           {
             inner_title: 'Principles of Software Technology',
             inner_content: [
-              {
-                title: 'Software Engineering I',
-              }
-            ],
-            inner_content: [
-              {
-                title: 'Databases',
-              }
-            ],
-            inner_content: [
-              {
-                title: 'Operating Systems I',
-              }
+              {title: 'Software Engineering I'},
+              {title: 'Databases'},
+              {title: 'Operating Systems I'},
             ],
           },
 
           {
             inner_title: 'Discrete Mathematics and Mathematical Logic - Ongoing',
             inner_content: [
-              {
-                title: 'Discrete mathematics',
-              }
-            ],
-            inner_content: [
-              {
-                title: 'Graph theory',
-              }
-            ],
-            inner_content: [
-              {
-                title: 'Mathematical Logic',
-              }
+              {title: 'Discrete mathematics'},
+              {title: 'Graph theory'},
+              {title: 'Mathematical Logic'},
             ],
           },
           {
             inner_title: 'Also there are 7 more courses to follow such as:',
             inner_content: [
-              {
-                title: 'Digital Systems',
-              }
-            ],
-            inner_content: [
-              {
-                title: 'Computer Network Fundamentals',
-              }
-            ],
-            inner_content: [
-              {
-                title: 'Software Design',
-              }
-            ],
-            inner_content: [
-              {
-                title: 'Foundations of Computer Science',
-              }
-            ],
-            inner_content: [
-              {
-                title: 'Artificial Intelligence - Applications',
-              }
-            ],
-            inner_content: [
-              {
-                title: 'Signals and Image Processing',
-              }
-            ],
-            inner_content: [
-              {
-                title: 'Linear Programming and Modeling',
-              }
+              {title: 'Digital Systems'},
+              {title: 'Computer Network Fundamentals'},
+              {title: 'Software Design'},
+              {title: 'Foundations of Computer Science'},
+              {title: 'Artificial Intelligence - Applications'},
+              {title: 'Signals and Image Processing'},
+              {title: 'Linear Programming and Modeling'}
             ],
           },
         ],
