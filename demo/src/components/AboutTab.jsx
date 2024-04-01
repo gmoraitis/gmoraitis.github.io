@@ -1,4 +1,4 @@
-
+// Code for the AboutTab component
 
 function AboutTab({ aboutData }) {
     return (

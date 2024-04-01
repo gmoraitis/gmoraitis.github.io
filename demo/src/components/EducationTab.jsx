@@ -1,3 +1,4 @@
+// Code: EducationTab component
 import React from 'react';
 
 function EducationTab({ educationData }) {

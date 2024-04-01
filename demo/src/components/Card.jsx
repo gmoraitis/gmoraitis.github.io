@@ -1,3 +1,4 @@
+//Car component that displays the card with the tabs
 import React, { useState } from 'react';
 import EducationTab from './EducationTab';
 import AboutTab from './AboutTab';

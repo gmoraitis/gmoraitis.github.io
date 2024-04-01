@@ -1,4 +1,4 @@
-
+// Code: Footer component
 function Footer() {
   return (
     <p className="mt-auto text-white-50 text-center">

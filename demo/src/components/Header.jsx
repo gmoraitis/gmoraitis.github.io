@@ -1,4 +1,4 @@
-
+// Code: Header component
 import profileImg from '../assets/profileImg.jpg';
 
 
