@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import EducationTab from './EducationTab';
 import AboutTab from './AboutTab';
 import ContactTab from './ContactTab';
+import ExperienceTab from './ExperienceTab';
 
 function Card({ info }) {
     const [activeTab, setActiveTab] = useState(0);
@@ -12,7 +13,7 @@ function Card({ info }) {
     };
 
     return (
-        <div className='px-5'>
+        <div className='px-5 overflow-auto'>
             <div className="card text-center text-bg-dark" style={{ maxWidth: '700px', margin: '0 auto' }}>
                 <div className="card-header">
                     <ul className="nav nav-tabs card-header-tabs justify-content-center">
@@ -38,6 +39,10 @@ function Card({ info }) {
                         <AboutTab aboutData={info[activeTab]} />
                     )}
                     
+                    {info[activeTab].title === "Experience" && (
+                        <ExperienceTab experienceData={info[activeTab].content} />
+                    )}
+
                     {info[activeTab].title === "Education" && (
                         <EducationTab educationData={info[activeTab].content} />
                     )}
