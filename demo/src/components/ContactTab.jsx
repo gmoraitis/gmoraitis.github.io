@@ -1,30 +1,16 @@
 
-function ContactTab() {
+function ContactTab({ contactData }) {
   return (
     <div>
       <p className="mt-auto text-white-50">
-        <a href='https://github.com/gmoraitis'
-          target="_blank"
-          rel="noopener noreferrer">
-                  <i className="bi bi-github" style={{ margin: "6px"}}></i>
-
-          Github</a>
+        {contactData.map((contact, index) => (
+          <a key={index} className="link" href={contact.href}
+            target="_blank"
+            rel="noopener noreferrer">
+            <i className={contact.icon} style={{ margin: "6px" }}></i>
+            {contact.text}</a>
+        ))}
       </p>
-      <p className="mt-auto text-white-50">
-        <a href='https://www.linkedin.com/in/georgiosmoraitis/'
-          target="_blank"
-          rel="noopener noreferrer">
-                  <i className="bi bi-linkedin" style={{ margin: "6px"}}></i>
-
-          Linkedin</a>
-      </p>
-   
-      <p className="mt-auto text-white-50">
-        <a href='mailto:moraitis.georgios@icloud.com'
-          target="_blank"
-          rel="noopener noreferrer">
-               <i className="bi bi-envelope" style={{ margin: "6px"}}></i>
-          Mail</a></p>
     </div>
   )
 }

@@ -25,7 +25,7 @@
   color: #646cff;
 }
 
-.name:hover {
+.link:hover {
   color: #646cff;
   transition: color 300ms;
 }

@@ -10,7 +10,7 @@ function Header() {
                     <img src={profileImg} className="img react" alt="profile image" />
                 </div>
 
-                <h1 className='name'>Hi,👋 I am George Moraitis</h1>
+                <h1 className='link'>Hi,👋 I am George Moraitis</h1>
                 <p>Zurich  - Switzerland</p>
             </div>
         </header>

@@ -43,7 +43,7 @@ function Card({ info }) {
                     )}
 
                     {info[activeTab].title === "Contact" && (
-                        <ContactTab />
+                        <ContactTab contactData={info[activeTab].content} />
                     )}
 
                 </div>
