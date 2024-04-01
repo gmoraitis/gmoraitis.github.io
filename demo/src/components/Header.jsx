@@ -11,6 +11,7 @@ function Header() {
                 </div>
 
                 <h1 className='name'>Hi,👋 I am George Moraitis</h1>
+                <p>Zurich  - Switzerland</p>
             </div>
         </header>
     );

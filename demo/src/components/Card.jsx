@@ -46,7 +46,6 @@ function Card({ info }) {
                         <ContactTab />
                     )}
 
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
