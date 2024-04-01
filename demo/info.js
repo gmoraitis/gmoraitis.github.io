@@ -81,16 +81,128 @@ const data = [
     title: "Education",
     content: [
       {
-        University: "Hellenic Open",
-        Dates: "2019-03-29 - 2027-08-30",
-        StudyMaterial: 'Computer Science'
+        university: "Hellenic Open University",
+
+        dates: "2019 - 2027",
+        study: 'Bachelor of Science in Computer Science',
+        href: "https://www.eap.gr/en/",
+        courses: [
+          {
+            inner_title: 'Introduction to Informatics',
+            inner_content: [
+              
+                {title: 'Introduction to Computer Science'},
+                {title: 'Introduction to Programming Techniques'},
+                {title: 'Introduction to Algorithms'},
+                {title: 'Introduction to Data Structures'},
+                {title: 'Introduction to  Programming languages'},
+            ],
+              
+
+
+
+
+
+          },
+
+          {
+            inner_title: 'Mathematics for Informatics I',
+            inner_content: [
+              {
+                title: 'Linear Algebra',
+              }
+            ],
+            inner_content: [
+              {
+                title: 'Single Variable Calculus',
+              }
+            ],
+            inner_content: [
+              {
+                title: 'Elements of Probability Theory',
+              }
+            ],
+
+          },
+          {
+            inner_title: 'Principles of Software Technology',
+            inner_content: [
+              {
+                title: 'Software Engineering I',
+              }
+            ],
+            inner_content: [
+              {
+                title: 'Databases',
+              }
+            ],
+            inner_content: [
+              {
+                title: 'Operating Systems I',
+              }
+            ],
+          },
+
+          {
+            inner_title: 'Discrete Mathematics and Mathematical Logic - Ongoing',
+            inner_content: [
+              {
+                title: 'Discrete mathematics',
+              }
+            ],
+            inner_content: [
+              {
+                title: 'Graph theory',
+              }
+            ],
+            inner_content: [
+              {
+                title: 'Mathematical Logic',
+              }
+            ],
+          },
+          {
+            inner_title: 'Also there are 7 more courses to follow such as:',
+            inner_content: [
+              {
+                title: 'Digital Systems',
+              }
+            ],
+            inner_content: [
+              {
+                title: 'Computer Network Fundamentals',
+              }
+            ],
+            inner_content: [
+              {
+                title: 'Software Design',
+              }
+            ],
+            inner_content: [
+              {
+                title: 'Foundations of Computer Science',
+              }
+            ],
+            inner_content: [
+              {
+                title: 'Artificial Intelligence - Applications',
+              }
+            ],
+            inner_content: [
+              {
+                title: 'Signals and Image Processing',
+              }
+            ],
+            inner_content: [
+              {
+                title: 'Linear Programming and Modeling',
+              }
+            ],
+          },
+        ],
       },
-      {
-        University: "Hong Kong",
-        Dates: "XXXX-XX-XX - XXXX-XX-XX",
-        StudyMaterial: 'Computer Science'
-      }
-    ]
+    ],
+
   },
   {
     title: "Skills",
@@ -106,7 +218,7 @@ const data = [
   },
   {
     title: "Contact",
-    content:[
+    content: [
       {
         href: 'https://github.com/gmoraitis',
         icon: "bi bi-github",

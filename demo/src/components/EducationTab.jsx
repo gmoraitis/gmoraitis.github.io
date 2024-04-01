@@ -6,12 +6,27 @@ function EducationTab({ educationData }) {
         <div>
             {educationData.map((education, index) => (
                 <div key={index}>
-                    <p><strong>University: </strong>{education.University}</p>
-                    <p><strong>Dates: </strong>{education.Dates}</p>
-                    <p><strong>Study Material: </strong>{education.StudyMaterial}</p>
+                    <h3>{education.university}</h3>
+                    <p>{education.dates}</p>
+                    <p>{education.study}</p>
+                    <a className="link" href={education.href} target="_blank">
+                        {education.university}
+                    </a>
+                    <hr />
+                    {education.courses.map((course, index) => (
+                        <div key={index}>
+                            <h4>{course.inner_title}</h4>
+                            {course.inner_content.map((content, index) => (
+                                <div key={index}>
+                                    <p>{content.title}</p>
+                                </div>
+                            ))}
+                        </div>
+                    ))}
                 </div>
             ))}
         </div>
+
     );
 }
 
