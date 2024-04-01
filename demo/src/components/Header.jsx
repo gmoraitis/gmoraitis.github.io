@@ -4,7 +4,7 @@ import profileImg from '../assets/profileImg.jpg';
 
 function Header() {
     return (
-        <header className="mb-4 mt-5">
+        <header className="mb-4 mt-5 text-center">
             <div>
                 <div>
                     <img src={profileImg} className="img react" alt="profile image" />

@@ -41,3 +41,9 @@ a {
 /* .read-the-docs {
   color: #888;
 } */
+
+/* In your CSS file or style block */
+.card-container {
+  max-height: 50vh; /* Adjust as needed */
+  overflow-y: auto;
+}

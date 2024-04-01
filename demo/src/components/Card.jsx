@@ -1,4 +1,3 @@
-// Card.jsx
 import React, { useState } from 'react';
 import EducationTab from './EducationTab';
 import AboutTab from './AboutTab';
@@ -13,8 +12,8 @@ function Card({ info }) {
     };
 
     return (
-        <div className='px-5 overflow-auto'>
-            <div className="card text-center text-bg-dark" style={{ maxWidth: '700px', margin: '0 auto' }}>
+        <div className='px-5'>
+            <div className="card text-bg-dark" style={{ maxWidth: '700px', margin: '0 auto' }}>
                 <div className="card-header">
                     <ul className="nav nav-tabs card-header-tabs justify-content-center">
                         {info.map((item, index) => (
@@ -30,11 +29,8 @@ function Card({ info }) {
                         ))}
                     </ul>
                 </div>
-                <div className="card-body mt-4">
-        
+                <div className="card-body mt-4 card-container">
                     {/* Switching tabs */}
-                    
-                
                     {info[activeTab].title === 'About' && (
                         <AboutTab aboutData={info[activeTab]} />
                     )}
@@ -42,15 +38,15 @@ function Card({ info }) {
                     {info[activeTab].title === "Experience" && (
                         <ExperienceTab experienceData={info[activeTab].content} />
                     )}
-
+                    
                     {info[activeTab].title === "Education" && (
-                        <EducationTab educationData={info[activeTab].content} />
+                            <EducationTab educationData={info[activeTab].content} />
                     )}
-
+                    
                     {info[activeTab].title === "Contact" && (
                         <ContactTab contactData={info[activeTab].content} />
                     )}
-
+                
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@
 function ContactTab({ contactData }) {
   return (
     <div>
-      <p className="mt-auto text-white-50">
+      <p className="mt-auto text-white-50 text-center">
         {contactData.map((contact, index) => (
           <a key={index} className="link" href={contact.href}
             target="_blank"

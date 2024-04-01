@@ -93,7 +93,6 @@ const data = [
               
                 {title: 'Introduction to Computer Science'},
                 {title: 'Introduction to Programming Techniques'},
-                {title: 'Introduction to Algorithms'},
                 {title: 'Introduction to Data Structures'},
                 {title: 'Introduction to  Programming languages'},
             ],
@@ -119,8 +118,8 @@ const data = [
           {
             inner_title: 'Discrete Mathematics and Mathematical Logic - Ongoing',
             inner_content: [
-              {title: 'Discrete mathematics'},
-              {title: 'Graph theory'},
+              {title: 'Discrete Mathematics'},
+              {title: 'Graph Theory'},
               {title: 'Mathematical Logic'},
             ],
           },
