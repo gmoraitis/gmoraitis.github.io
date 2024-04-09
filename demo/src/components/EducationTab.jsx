@@ -16,11 +16,11 @@ function EducationTab({ educationData }) {
                         <p>{education.study}</p>
                      <hr />
                         {education.courses.map((course, index) => (
-                            <div key={index}>
+                            <div className='mb-4' key={index}>
                                 <h4>{course.inner_title}</h4>
                                 {course.inner_content.map((content, index) => (
-                                    <div key={index}>
-                                        <p> - {content.title}</p>
+                                    <div className='mb-2' key={index}>
+                                        <li>{content.title}</li>
                                     </div>
                                 ))}
                             </div>

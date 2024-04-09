@@ -5,6 +5,7 @@ import AboutTab from './AboutTab';
 import ContactTab from './ContactTab';
 import ExperienceTab from './ExperienceTab';
 import SkillsTab from './SkillsTab';
+import AwardsTab from './AwardsTab';
 
 function Card({ info }) {
     const [activeTab, setActiveTab] = useState(0);
@@ -51,6 +52,10 @@ function Card({ info }) {
 
                     {info[activeTab].title === "Skills" && (
                         <SkillsTab skillsData={info[activeTab].content} />
+                    )}
+
+                    {info[activeTab].title === "Awards & Certifications" && (
+                        <AwardsTab awardsData={info[activeTab]} />
                     )}
 
                 </div>

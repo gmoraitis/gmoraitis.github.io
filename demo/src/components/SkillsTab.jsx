@@ -13,11 +13,11 @@ function SkillsTab({ skillsData }) {
                         </h3>
                         <hr />
                         {skills.subjects.map((subject, index) => (
-                            <div key={index}>
+                            <div className='mb-4'key={index}>
                                 <h4>{subject.subject_title}</h4>
                                 {subject.subject_content.map((content, index) => (
-                                    <div key={index}>
-                                        <p> - {content.title}</p>
+                                    <div className='mb-2' key={index}>
+                                        <li>{content.title}</li>
                                     </div>
                                 ))}
                             </div>
