@@ -57,7 +57,7 @@ function Card({ info }) {
                         <AwardsTab awardsData={info[activeTab]} />
                     )}
 
-                    {info[activeTab].title === "Projects" && (
+                    {info[activeTab].title === "Latest Projects" && (
                         <ProjectsTab projectsData={info[activeTab].content} />
                     )}
 

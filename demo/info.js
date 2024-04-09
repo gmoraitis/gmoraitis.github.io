@@ -326,13 +326,14 @@ const data = [
     }
   },
   {
-    title: "Projects",
+    title: "Latest Projects",
     content: [
       {
         title: "Recipe Cost Calculator",
         href: "https://gmoraitis.github.io/Recipe-Cost-Calculator/",
         description: "A simple recipe cost calculator that allows you to calculate the cost of a recipe based on the cost of the ingredients."      
       },
+
     ]
   },
   {
