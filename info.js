@@ -230,41 +230,41 @@ const data = [
             },
             {
               title: "Introduction to CSS3",
-              href: "https://www.coursera.org/learn/introcsshttps://www.coursera.org/account/accomplishments/certificate/BLSNDCTC5CDP"
+              href: "https://www.coursera.org/account/accomplishments/certificate/BLSNDCTC5CDP"
             },
             {
               title: "Interactivity with JavaScript",
-              href: "https://www.coursera.org/learn/javascripthttps://www.coursera.org/account/accomplishments/certificate/8RWX3CW2LVR7"
+              href: "https://www.coursera.org/account/accomplishments/certificate/8RWX3CW2LVR7"
             },
             {
               title: "Advanced Styling with Responsive Design",
-              href: "https://www.coursera.org/learn/responsivedesignhttps://www.coursera.org/account/accomplishments/certificate/Z3XDXRZ5MLPW"
+              href: "https://www.coursera.org/account/accomplishments/certificate/Z3XDXRZ5MLPW"
             },
             {
               title: "Web Design for Everybody Capstone",
-              href: "https://www.coursera.org/learn/web-design-projecthttps://www.coursera.org/account/accomplishments/certificate/9P6G85E9KJDX"
+              href: "https://www.coursera.org/account/accomplishments/certificate/9P6G85E9KJDX"
             }
           ]
         },
         {
           title: "Full-Stack Web Development with React",
-          href: "https://www.coursera.org/specializations/full-stack-reacthttps://www.coursera.org/account/accomplishments/specialization/Y5JS7QGZGPMZ",
+          href: "https://www.coursera.org/account/accomplishments/specialization/Y5JS7QGZGPMZ",
           courses: [
             {
               title: "Front-End Web UI Frameworks and Tools: Bootstrap 4",
-              href: "https://www.coursera.org/learn/bootstrap-4https://www.coursera.org/account/accomplishments/certificate/9GXTCMWL4X7B"
+              href: "https://www.coursera.org/account/accomplishments/certificate/9GXTCMWL4X7B"
             },
             {
               title: "Front-End Web Development with React",
-              href: "https://www.coursera.org/learn/front-end-reacthttps://www.coursera.org/account/accomplishments/certificate/AGJZ8KHE37CB"
+              href: "https://www.coursera.org/account/accomplishments/certificate/AGJZ8KHE37CB"
             },
             {
               title: "Multiplatform Mobile App Development with React Native",
-              href: "https://www.coursera.org/learn/react-nativehttps://www.coursera.org/account/accomplishments/certificate/JSSPFJJ5TACC"
+              href: "https://www.coursera.org/account/accomplishments/certificate/JSSPFJJ5TACC"
             },
             {
               title: "Server-side Development with NodeJS, Express and MongoDB",
-              href: "https://www.coursera.org/learn/server-side-nodejshttps://www.coursera.org/account/accomplishments/certificate/ATTB8G9ZEA6G"
+              href: "https://www.coursera.org/account/accomplishments/certificate/ATTB8G9ZEA6G"
             }
           ]
         }
@@ -272,41 +272,41 @@ const data = [
       courses: [
         {
           title: "Introduction to C++",
-          href: "https://www.coursera.org/learn/c-plus-plus-ahttps://courses.edx.org/certificates/765007a8760341fea0a7f573553ed4e2"
+          href: "https://courses.edx.org/certificates/765007a8760341fea0a7f573553ed4e2"
         },
         {
           title: "Data Science Math Skills",
-          href: "https://www.coursera.org/learn/datasciencemathskillshttps://www.coursera.org/account/accomplishments/certificate/P773BFUPU2ST"
+          href: "https://www.coursera.org/account/accomplishments/certificate/P773BFUPU2ST"
         },
         {
           title: "Getting Started With Music Theory",
-          href: "https://www.coursera.org/learn/getting-started-with-music-theoryhttps://www.coursera.org/account/accomplishments/certificate/BGJAX33JR5KL"
+          href: "https://www.coursera.org/account/accomplishments/certificate/BGJAX33JR5KL"
         },
         {
           title: "Code Yourself! An Introduction to Programming",
-          href: "https://www.coursera.org/learn/intro-programminghttps://www.coursera.org/account/accomplishments/certificate/6KSRBF356FLQ"
+          href: "https://www.coursera.org/account/accomplishments/certificate/6KSRBF356FLQ"
         },
         {
           title: "Modern JavaScript: ES6 Basics",
-          href: "https://www.coursera.org/learn/modern-javascripthttps://www.coursera.org/account/accomplishments/certificate/TLMDDZ27YHPN"
+          href: "https://www.coursera.org/account/accomplishments/certificate/TLMDDZ27YHPN"
         },
         {
           title: "Modern Open Source Software Development Methods",
-          href: "https://www.coursera.org/learn/open-source-software-developmenthttps://www.coursera.org/account/accomplishments/verify/CWUXG5GK6W8Q"
+          href: "https://www.coursera.org/account/accomplishments/verify/CWUXG5GK6W8Q"
         }
       ],
       currently_enrolled: [
         {
           title: "Google IT Support Professional Certificate",
-          href: "https://www.coursera.org/professional-certificates/google-it-supporthttps://www.coursera.org/programs/3ad8a40a-75b5-489c-9337-ffa78ba3842e/browse?productId=7lHCSlFIEeeffRIHljDI_g&productType=s12n&query=Google+IT+Support&showMiniModal=true",
+          href: "https://www.coursera.org/programs/3ad8a40a-75b5-489c-9337-ffa78ba3842e/browse?productId=7lHCSlFIEeeffRIHljDI_g&productType=s12n&query=Google+IT+Support&showMiniModal=true",
           courses: [
             {
               title: "Technical Support Fundamentals",
-              href: "https://www.coursera.org/learn/technical-support-fundamentalshttps://www.coursera.org/learn/technical-support-fundamentals/home/welcome"
+              href: "https://www.coursera.org/learn/technical-support-fundamentals/home/welcome"
             },
             {
               title: "The Bits and Bytes of Computer Networking",
-              href: "https://www.coursera.org/learn/computer-networkinghttps://www.coursera.org/learn/computer-networking/home/welcome"
+              href: "https://www.coursera.org/learn/computer-networking/home/welcome"
             },
             {
               title: "Operating Systems and You: Becoming a Power User (pending)",
