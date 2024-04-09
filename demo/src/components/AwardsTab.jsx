@@ -2,8 +2,6 @@ function AwardsTab({ awardsData }) {
     return (
         <div className="row">
             <div className="col">
-                <h2>{awardsData.title}</h2>
-                <hr />
                 <div>
                     <h3>Specializations</h3>
                     {awardsData.content.specializations.map((specialization, index) => (

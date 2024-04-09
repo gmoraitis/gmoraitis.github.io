@@ -6,6 +6,9 @@ import ContactTab from './ContactTab';
 import ExperienceTab from './ExperienceTab';
 import SkillsTab from './SkillsTab';
 import AwardsTab from './AwardsTab';
+import Interests from './InterestsTab';
+import BlogTab from './BlogTab';
+import ProjectsTab from './ProjectsTab';
 
 function Card({ info }) {
     const [activeTab, setActiveTab] = useState(0);
@@ -46,10 +49,6 @@ function Card({ info }) {
                         <EducationTab educationData={info[activeTab].content} />
                     )}
 
-                    {info[activeTab].title === "Contact" && (
-                        <ContactTab contactData={info[activeTab].content} />
-                    )}
-
                     {info[activeTab].title === "Skills" && (
                         <SkillsTab skillsData={info[activeTab].content} />
                     )}
@@ -57,6 +56,29 @@ function Card({ info }) {
                     {info[activeTab].title === "Awards & Certifications" && (
                         <AwardsTab awardsData={info[activeTab]} />
                     )}
+
+                    {info[activeTab].title === "Projects" && (
+                        <ProjectsTab projectsData={info[activeTab].content} />
+                    )}
+
+                    {info[activeTab].title === "Blog" && (
+                        <BlogTab />
+                    )}
+
+                    {info[activeTab].title === "Interests" && (
+                        <Interests />
+                    )}
+
+                    {info[activeTab].title === "Contact" && (
+                        <ContactTab contactData={info[activeTab].content} />
+                    )}
+
+
+
+
+
+
+
 
                 </div>
             </div>

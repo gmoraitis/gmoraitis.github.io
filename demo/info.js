@@ -4,7 +4,7 @@ const data = [
     content: "I am a passionate and dedicated software developer focused on web development, \
     with keen interest in audio, game development, and data science. I am driven by a desire for continuous \
     learning and thrive on challenging opportunities to enhance my \
-    analytical thinking, problem-solving, and personal growth."
+    analytical thinking, problem-solving, and personal growth.",
   },
   {
     title: "Experience",
@@ -327,12 +327,23 @@ const data = [
   },
   {
     title: "Projects",
-    content: "Projects content goes here..."
+    content: [
+      {
+        title: "Recipe Cost Calculator",
+        href: "https://gmoraitis.github.io/Recipe-Cost-Calculator/",
+        description: "A simple recipe cost calculator that allows you to calculate the cost of a recipe based on the cost of the ingredients."      
+      },
+    ]
   },
   {
     title: "Blog",
     content: "Blog content goes here..."
   },
+  
+  {
+    title: "Interests",
+  },
+
   {
     title: "Contact",
     content: [
