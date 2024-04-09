@@ -142,7 +142,56 @@ const data = [
   },
   {
     title: "Skills",
-    content: "Skills content goes here..."
+    content: [
+      {
+        general_info: "Basic - Experimental knowledge and familiar with :",
+
+        subjects: [
+          {
+            subject_title: 'Programming Languages',
+            subject_content: [
+              
+                {title: 'Javascript , ( For Web Development with HTML & CSS )'},
+                {title: 'Python'},
+                {title: 'C  , C++'},
+                {title: 'Ruby , R , Bash'},
+            ],
+          },
+
+          {
+            subject_title: 'Software Tools',
+            subject_content: [
+              {title: 'Git'},
+              {title: 'Npm'},
+              {title: 'Node.js'},
+              {title: 'Webpack'},
+              {title: 'React.js'},
+              {title: 'Backbone.js'},
+              {title: 'D3.js'},
+              {title: 'SQLAlchemy'},
+              {title: 'AWS/Chalice'},
+              {title: 'Tone.js'},
+              {title: 'Bootstrap, Material UI & Bulma'},
+              {title: 'Mocha'},
+              {title: 'Gatsby.js, Jekyll & Hugo'},
+              {title: 'Electron'},
+              {title: 'Selenium'},
+              {title: 'Ruby on Rails'},
+              {title: 'Ember.js'},
+            ],
+          },
+          {
+            subject_title: 'Operating Systems',
+            subject_content: [
+              {title: 'Linux ( Debian Distributions)'},
+              {title: 'Mac OS'},
+              {title: 'Windows'},
+            ],
+          },
+        ]
+      },
+    ],
+
   },
   {
     title: "Projects",

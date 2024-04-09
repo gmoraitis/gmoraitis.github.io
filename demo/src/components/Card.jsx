@@ -4,6 +4,7 @@ import EducationTab from './EducationTab';
 import AboutTab from './AboutTab';
 import ContactTab from './ContactTab';
 import ExperienceTab from './ExperienceTab';
+import SkillsTab from './SkillsTab';
 
 function Card({ info }) {
     const [activeTab, setActiveTab] = useState(0);
@@ -35,19 +36,23 @@ function Card({ info }) {
                     {info[activeTab].title === 'About' && (
                         <AboutTab aboutData={info[activeTab]} />
                     )}
-                    
+
                     {info[activeTab].title === "Experience" && (
                         <ExperienceTab experienceData={info[activeTab].content} />
                     )}
-                    
+
                     {info[activeTab].title === "Education" && (
-                            <EducationTab educationData={info[activeTab].content} />
+                        <EducationTab educationData={info[activeTab].content} />
                     )}
-                    
+
                     {info[activeTab].title === "Contact" && (
                         <ContactTab contactData={info[activeTab].content} />
                     )}
-                
+
+                    {info[activeTab].title === "Skills" && (
+                        <SkillsTab skillsData={info[activeTab].content} />
+                    )}
+
                 </div>
             </div>
         </div>
