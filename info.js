@@ -345,26 +345,6 @@ const data = [
     title: "Interests",
   },
 
-  {
-    title: "Contact",
-    content: [
-      {
-        href: 'https://github.com/gmoraitis',
-        icon: "bi bi-github",
-        text: 'Github'
-      },
-      {
-        href: 'https://www.linkedin.com/in/georgiosmoraitis/',
-        icon: "bi bi-linkedin",
-        text: 'Linkedin'
-      },
-      {
-        href: 'mailto:moraitis.georgios@icloud.com',
-        icon: "bi bi-envelope",
-        text: 'Mail'
-      }
-    ]
-  }
 ];
 
 export default data;

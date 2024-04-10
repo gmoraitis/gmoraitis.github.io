@@ -7,8 +7,8 @@ function AwardsTab({ awardsData }) {
                     {awardsData.content.specializations.map((specialization, index) => (
                         <div className='mb-2' key={index}>
                             <h5>
-                                <a className="link"  href={specialization.href} target="_blank" rel="noopener noreferrer">
-                                    {specialization.title}
+                                <a  className="link"  href={specialization.href} target="_blank" rel="noopener noreferrer">
+                                    {specialization.title} 
                                 </a>
                             </h5>
                             <ul>

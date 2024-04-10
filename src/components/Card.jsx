@@ -1,14 +1,15 @@
 //Car component that displays the card with the tabs
 import React, { useState } from 'react';
-import EducationTab from './EducationTab';
 import AboutTab from './AboutTab';
-import ContactTab from './ContactTab';
 import ExperienceTab from './ExperienceTab';
+import EducationTab from './EducationTab';
 import SkillsTab from './SkillsTab';
 import AwardsTab from './AwardsTab';
-import Interests from './InterestsTab';
-import BlogTab from './BlogTab';
 import ProjectsTab from './ProjectsTab';
+import BlogTab from './BlogTab';
+import Interests from './InterestsTab';
+
+
 
 function Card({ info }) {
     const [activeTab, setActiveTab] = useState(0);
@@ -68,17 +69,6 @@ function Card({ info }) {
                     {info[activeTab].title === "Interests" && (
                         <Interests />
                     )}
-
-                    {info[activeTab].title === "Contact" && (
-                        <ContactTab contactData={info[activeTab].content} />
-                    )}
-
-
-
-
-
-
-
 
                 </div>
             </div>
