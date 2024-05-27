@@ -333,6 +333,11 @@ const data = [
         href: "https://gmoraitis.github.io/Recipe-Cost-Calculator/",
         description: "A simple recipe cost calculator that allows you to calculate the cost of a recipe based on the cost of the ingredients."      
       },
+      {
+        title: "Synth M-01",
+        href: "https://gmoraitis.github.io/synth_m01/",
+        description: "This Tone.js Synth Application (M-01) is a versatile web-based synthesizer built using the Tone.js library."      
+      },
 
     ]
   },
