@@ -66,7 +66,7 @@ function Card({ info }) {
                         <BlogTab />
                     )}
 
-                    {info[activeTab].title === "Interests" && (
+                    {info[activeTab].title === "Interests-Additional Skills" && (
                         <Interests />
                     )}
 

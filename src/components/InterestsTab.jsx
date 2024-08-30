@@ -2,17 +2,13 @@ function Interests({ interestsData }) {
     return (
         <div>
            
-            <p>Apart from working to be a better developer, I enjoy most of my time playing basketball and going to the gym.
-                Another big interest for me apart from listening is writing music.</p>
+            <p>Apart from working to be a better developer, I enjoy most of my time playing basketball and going to the gym, focusing on body strength and overall fitness. Another big interest of mine, besides listening to music, is composing and producing it.</p>
            
-            <p>The interest in music-making gave me the idea to connect the programming domain with the pleasure of being in a studio writing music, 
-                testing new sounds and audio plugins. 
-                That's why I am trying to understand the fundamentals of DSP and working with frameworks like Juce,Tone.js and Reason's Rack Extensions SDK.</p>
+            <p>My passion for music-making inspired me to connect the programming domain with the pleasure of being in a studio, writing music, and testing new sounds and audio plugins. This has led me to explore the fundamentals of Digital Signal Processing (DSP) and work with frameworks like JUCE, Tone.js, and Reason's Rack Extensions SDK, as well as tools like Ableton, Reason, and Logic Pro X in a professional production studio environment</p>
 
-            <p>I am a big fan of movies and especially sci-fi and comedy series. 
-                The idea of having a nice burger watching my favorite movies its what I call "Its movie time!!"</p>
+            <p>In addition to my technical pursuits, I have a keen interest in the fundamentals of cybersecurity, and I’m always eager to enhance my programming and coding knowledge through reading books and watching tutorials.</p>
 
-            <p>Reading programming books and watching tutorials makes the perfect match to add new pieces of information in my toolset.</p>
+            <p>I’m also a big fan of movies, particularly sci-fi and comedy series, and nothing beats enjoying a great burger while watching my favorite films—it's what I call "movie time!"</p>
         </div>
     );
 }

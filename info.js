@@ -1,10 +1,15 @@
 const data = [
   {
     title: "About",
-    content: "I am a passionate and dedicated software developer focused on web development, \
-    with keen interest in audio, game development, and data science. I am driven by a desire for continuous \
-    learning and thrive on challenging opportunities to enhance my \
-    analytical thinking, problem-solving, and personal growth.",
+    content: "Motivated and detail-oriented software developer \
+    with over 4 years of experience in frontend and backend development, \
+    including related infrastructure tools. Currently pursuing a B.Sc.\
+    in Computer Science, I am passionate about leveraging technology\
+    to solve real-world problems and drive innovation. My interests extend\
+    to audio, game development, data science, and security principles \
+    in general. I thrive on continuous learning and seek challenging\
+    opportunities to enhance my analytical thinking, problem-solving skills,\
+    and personal growth.",
   },
   {
     title: "Experience",
@@ -14,13 +19,21 @@ const data = [
         company_place: "Kitro - Zurich, Switzerland",
         href: "https://www.kitro.ch/",
         dates: "September 2023 - February 2024",
-        job_info: 'During my internship at Kitro, I embarked on a journey \
-        of full-stack development, encompassing backend data transformation, \
-         report generation, and database querying. I harnessed the power of Python, \
-         Chalice, and SQLAlchemy to automate tasks and streamline workflows. \
-         Simultaneously, I delved into frontend development using Reactjs, \
-         gaining exposure to the entire development lifecycle. \
-         My experiences have equipped me with a solid foundation in full-stack development principles.'
+        job_info: 'During my internship at KITRO in Zurich, \
+        I embarked on a transformative journey in full-stack development, \
+        covering both serverless backend and frontend aspects. \
+        I applied my knowledge of Python to automate backend tasks,\
+        using AWS Chalice and SQLAlchemy for data transformation, \
+        report generation, and database querying. Additionally, I \
+        utilized React.js for developing user interfaces, \
+        gaining exposure to the entire development lifecycle. \
+        To ensure seamless deployment and scalability, \
+        I employed containerized solutions using Docker and Kubernetes\
+        in a Linux environment. I also implemented security principles\
+        following authentication and authorization standards such as \
+        OAuth2 and OIDC, using open-source tools like Keycloak. \
+        These experiences have equipped me with a solid foundation in \
+        full-stack development and modern, scalable application architectures.'
       },
       {
         job_title: "Junior Pre-Event Trader (Basketball Betting)",
@@ -144,15 +157,15 @@ const data = [
     title: "Skills",
     content: [
       {
-        general_info: "Basic - Experimental knowledge and familiar with :",
+        general_info: "Professional knowledge and familiar with :",
 
         subjects: [
           {
             subject_title: 'Programming Languages',
             subject_content: [
               
+                {title: 'Python'},  
                 {title: 'Javascript , ( For Web Development with HTML & CSS )'},
-                {title: 'Python'},
                 {title: 'C  , C++'},
                 {title: 'Ruby , R , Bash'},
             ],
@@ -162,13 +175,16 @@ const data = [
             subject_title: 'Software Tools',
             subject_content: [
               {title: 'Git'},
+              {title: 'Docker'},
+              {title: 'Kubernetes'},
+              {title: 'Gitlab CI'},
               {title: 'Npm'},
               {title: 'Node.js'},
               {title: 'Webpack'},
               {title: 'React.js'},
               {title: 'Backbone.js'},
               {title: 'D3.js'},
-              {title: 'SQLAlchemy'},
+              {title: 'PostgreSQL/SQLAlchemy'},
               {title: 'AWS/Chalice'},
               {title: 'Tone.js'},
               {title: 'Bootstrap, Material UI & Bulma'},
@@ -178,6 +194,17 @@ const data = [
               {title: 'Selenium'},
               {title: 'Ruby on Rails'},
               {title: 'Ember.js'},
+            ],
+          },
+          {
+            subject_title: 'Authentication and Security',
+            subject_content: [
+              {title: 'OIDC'},
+              {title: 'OAuth 2.0'},
+              {title: 'IAM (Identity and Access Management)'},
+              {title: 'KeyCloak (IDP Provider)'},
+              {title: 'MFA'},
+              {title: 'API Security'},
             ],
           },
           {
@@ -347,7 +374,7 @@ const data = [
   },
   
   {
-    title: "Interests",
+    title: "Interests-Additional Skills",
   },
 
 ];
