@@ -356,6 +356,11 @@ const data = [
     title: "Latest Projects",
     content: [
       {
+        title: "FM Radio web app",
+        href: "https://gmoraitis.github.io/radio_vjs/",
+        description: "A simple vanilla Javascript project to fetch some radio stations from Athens. Its done based on my curiosity and for educational procedures to interact with some Javascript concepts. The API that i used is Radio Browser."      
+      },
+      {
         title: "Recipe Cost Calculator",
         href: "https://gmoraitis.github.io/Recipe-Cost-Calculator/",
         description: "A simple recipe cost calculator that allows you to calculate the cost of a recipe based on the cost of the ingredients."      
