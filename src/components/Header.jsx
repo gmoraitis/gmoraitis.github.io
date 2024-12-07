@@ -11,7 +11,7 @@ function Header() {
                 </div>
 
                 <h1 className='link'>Hi,👋 I am George Moraitis</h1>
-                <p>Zurich  - Switzerland</p>
+                <p>Athens  - Greece</p>
                 
                 <div>
                     <p className="mt-auto text-white-50 text-center">
