@@ -96,56 +96,56 @@ const data = [
       {
         university: "Hellenic Open University",
 
-        dates: "2019 - 2027",
+        dates: "2019 - Ongoing",
         study: 'Bachelor of Science in Computer Science',
         href: "https://www.eap.gr/en/",
         courses: [
           {
             inner_title: 'Introduction to Informatics',
             inner_content: [
-              
-                {title: 'Introduction to Computer Science'},
-                {title: 'Introduction to Programming Techniques'},
-                {title: 'Introduction to Data Structures'},
-                {title: 'Introduction to  Programming languages'},
+
+              { title: 'Introduction to Computer Science' },
+              { title: 'Introduction to Programming Techniques' },
+              { title: 'Introduction to Data Structures' },
+              { title: 'Introduction to  Programming languages' },
             ],
           },
 
           {
             inner_title: 'Mathematics for Informatics I',
             inner_content: [
-              {title: 'Linear Algebra'},
-              {title: 'Single Variable Calculus'},
-              {title: 'Elements of Probability Theory'},
+              { title: 'Linear Algebra' },
+              { title: 'Single Variable Calculus' },
+              { title: 'Elements of Probability Theory' },
             ],
           },
           {
             inner_title: 'Principles of Software Technology',
             inner_content: [
-              {title: 'Software Engineering I'},
-              {title: 'Databases'},
-              {title: 'Operating Systems I'},
+              { title: 'Software Engineering I' },
+              { title: 'Databases' },
+              { title: 'Operating Systems I' },
             ],
           },
 
           {
-            inner_title: 'Discrete Mathematics and Mathematical Logic - Ongoing',
+            inner_title: 'Discrete Mathematics and Mathematical Logic',
             inner_content: [
-              {title: 'Discrete Mathematics'},
-              {title: 'Graph Theory'},
-              {title: 'Mathematical Logic'},
+              { title: 'Discrete Mathematics' },
+              { title: 'Graph Theory' },
+              { title: 'Mathematical Logic' },
             ],
           },
           {
             inner_title: 'Also there are 7 more courses to follow such as:',
             inner_content: [
-              {title: 'Digital Systems'},
-              {title: 'Computer Network Fundamentals'},
-              {title: 'Software Design'},
-              {title: 'Foundations of Computer Science'},
-              {title: 'Artificial Intelligence - Applications'},
-              {title: 'Signals and Image Processing'},
-              {title: 'Linear Programming and Modeling'}
+              { title: 'Digital Systems' },
+              { title: 'Computer Network Fundamentals' },
+              { title: 'Software Design' },
+              { title: 'Foundations of Computer Science' },
+              { title: 'Artificial Intelligence - Applications' },
+              { title: 'Signals and Image Processing' },
+              { title: 'Linear Programming and Modeling' }
             ],
           },
         ],
@@ -163,56 +163,56 @@ const data = [
           {
             subject_title: 'Programming Languages',
             subject_content: [
-              
-                {title: 'Python'},  
-                {title: 'Javascript , ( For Web Development with HTML & CSS )'},
-                {title: 'C  , C++'},
-                {title: 'Ruby , R , Bash'},
+
+              { title: 'Python' },
+              { title: 'Javascript , ( For Web Development with HTML & CSS )' },
+              { title: 'C  , C++, C#' },
+              { title: 'Ruby , R , Bash' },
             ],
           },
 
           {
             subject_title: 'Software Tools',
             subject_content: [
-              {title: 'Git'},
-              {title: 'Docker'},
-              {title: 'Kubernetes'},
-              {title: 'Gitlab CI'},
-              {title: 'Npm'},
-              {title: 'Node.js'},
-              {title: 'Webpack'},
-              {title: 'React.js'},
-              {title: 'Backbone.js'},
-              {title: 'D3.js'},
-              {title: 'PostgreSQL/SQLAlchemy'},
-              {title: 'AWS/Chalice'},
-              {title: 'Tone.js'},
-              {title: 'Bootstrap, Material UI & Bulma'},
-              {title: 'Mocha'},
-              {title: 'Gatsby.js, Jekyll & Hugo'},
-              {title: 'Electron'},
-              {title: 'Selenium'},
-              {title: 'Ruby on Rails'},
-              {title: 'Ember.js'},
+              { title: 'Git' },
+              { title: 'Docker' },
+              { title: 'Kubernetes' },
+              { title: 'Gitlab CI' },
+              { title: 'Npm' },
+              { title: 'Node.js' },
+              { title: 'Webpack' },
+              { title: 'React.js' },
+              { title: 'Backbone.js' },
+              { title: 'D3.js' },
+              { title: 'PostgreSQL/SQLAlchemy' },
+              { title: 'AWS/Chalice' },
+              { title: 'Tone.js' },
+              { title: 'Bootstrap, Material UI & Bulma' },
+              { title: 'Mocha' },
+              { title: 'Gatsby.js, Jekyll & Hugo' },
+              { title: 'Electron' },
+              { title: 'Selenium' },
+              { title: 'Ruby on Rails' },
+              { title: 'Ember.js' },
             ],
           },
           {
             subject_title: 'Authentication and Security',
             subject_content: [
-              {title: 'OIDC'},
-              {title: 'OAuth 2.0'},
-              {title: 'IAM (Identity and Access Management)'},
-              {title: 'KeyCloak (IDP Provider)'},
-              {title: 'MFA'},
-              {title: 'API Security'},
+              { title: 'OIDC' },
+              { title: 'OAuth 2.0' },
+              { title: 'IAM (Identity and Access Management)' },
+              { title: 'KeyCloak (IDP Provider)' },
+              { title: 'MFA' },
+              { title: 'API Security' },
             ],
           },
           {
             subject_title: 'Operating Systems',
             subject_content: [
-              {title: 'Linux ( Debian Distributions)'},
-              {title: 'Mac OS'},
-              {title: 'Windows'},
+              { title: 'Linux ( Debian Distributions)' },
+              { title: 'Mac OS' },
+              { title: 'Windows' },
             ],
           },
         ]
@@ -320,6 +320,10 @@ const data = [
         {
           title: "Modern Open Source Software Development Methods",
           href: "https://www.coursera.org/account/accomplishments/verify/CWUXG5GK6W8Q"
+        },
+        {
+          title: "Foundational C# with Microsoft",
+          href: "https://www.freecodecamp.org/certification/mor1/foundational-c-sharp-with-microsoft"
         }
       ],
       currently_enrolled: [
@@ -337,15 +341,15 @@ const data = [
             },
             {
               title: "Operating Systems and You: Becoming a Power User (pending)",
-              href:"https://www.coursera.org/learn/os-power-user"
+              href: "https://www.coursera.org/learn/os-power-user"
             },
             {
               title: "System Administration and IT Infrastructure Services (pending)",
-              href:"https://www.coursera.org/learn/system-administration-it-infrastructure-services"
+              href: "https://www.coursera.org/learn/system-administration-it-infrastructure-services"
             },
             {
               title: "IT Security: Defense against the digital dark arts (pending)",
-              href:"https://www.coursera.org/learn/it-security"
+              href: "https://www.coursera.org/learn/it-security"
             }
           ]
         }
@@ -358,17 +362,17 @@ const data = [
       {
         title: "FM Radio web app",
         href: "https://gmoraitis.github.io/radio_vjs/",
-        description: "A simple vanilla Javascript project to fetch some radio stations from Athens. Its done based on my curiosity and for educational procedures to interact with some Javascript concepts. The API that i used is Radio Browser."      
+        description: "A simple vanilla Javascript project to fetch some radio stations from Athens. Its done based on my curiosity and for educational procedures to interact with some Javascript concepts. The API that i used is Radio Browser."
       },
       {
         title: "Recipe Cost Calculator",
         href: "https://gmoraitis.github.io/Recipe-Cost-Calculator/",
-        description: "A simple recipe cost calculator that allows you to calculate the cost of a recipe based on the cost of the ingredients."      
+        description: "A simple recipe cost calculator that allows you to calculate the cost of a recipe based on the cost of the ingredients."
       },
       {
         title: "Synth M-01",
         href: "https://gmoraitis.github.io/synth_m01/",
-        description: "This Tone.js Synth Application (M-01) is a versatile web-based synthesizer built using the Tone.js library."      
+        description: "This Tone.js Synth Application (M-01) is a versatile web-based synthesizer built using the Tone.js library."
       },
 
     ]
@@ -377,7 +381,7 @@ const data = [
     title: "Blog",
     content: "Blog content goes here..."
   },
-  
+
   {
     title: "Interests-Additional Skills",
   },
